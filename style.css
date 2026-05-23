@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #00001d;
+    color: white;
+     font-family: "Elms Sans", sans-serif;
+
+}
+
+header {
+    background-color: #000035;
+    position: sticky;
+    padding: 15px 5%;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 40px;
+    color: #dad5f3;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #dad5f3;
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: rgb(87, 87, 249);
+}
+
+/*hero section*/
+.hero {
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+}
+
+/*left side */
+.hero-text {
+    max-width: 550px;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.hero-text h4 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.hero-text p {
+    font-size: 23px;
+    margin-bottom: 8px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    height: 30px;
+    width: 70px;
+    font-size: 20px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+    border: 2px solid #4da3ff;
+    color: white;
+    background: linear-gradient(to right, #4da3ff, #7a5cff);
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+}
+
+
+/* Social Icons */
+.socials {
+    display: flex;
+    gap: 15px;
+}
+
+.socials a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #5b3bed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 25px;
+}
+
+.socials a:hover {
+    color: #03036f;
+}
+
+/* Right Image */
+.hero-image img {
+    width: 420px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid rgba(255, 255, 255, 0.1);
+}
+
+section {
+    padding: 80px 8%;
+}
+
+.section-title {
+    text-align: justify;
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+#about p {
+    text-align: justify;
+    font-size: 30px;
+    margin: auto;
+}
+
+/* Skills */
+.skills-container {
+    display: flex;
+
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-card {
+    color: white;
+    padding: 20px 35px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    font-size: 25px;
+    background-color: #5b3bed;
+
+}
+
+.skill-card:hover {
+    transform: translateY(-3px);
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.project-card {
+    color: white;
+    font-size: 25px;
+    background-color: #5b3bed;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+}
+
+.project-card h3 {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background: #00001c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
