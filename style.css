@@ -8,7 +8,7 @@
 body {
     background-color: #00001d;
     color: white;
-     font-family: "Elms Sans", sans-serif;
+    font-family: "Elms Sans", sans-serif;
 
 }
 
@@ -112,6 +112,7 @@ nav ul li a.active {
     margin-bottom: 40px;
     text-decoration: underline;
 }
+
 /* Right Image */
 .hero-image img {
     width: 420px;
@@ -123,9 +124,9 @@ nav ul li a.active {
 
 /*about section*/
 section {
-   padding: 90px 80px;
+    padding: 90px 80px;
     min-height: 90vh;
-    
+
 }
 
 
@@ -138,7 +139,7 @@ section {
 /* Skills */
 .skills-container {
     display: flex;
-      justify-content:  center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 
@@ -166,9 +167,9 @@ section {
     justify-content: center;
     align-items: center;
     gap: 25px;
-   
-   
-   
+
+
+
 }
 
 .project-card {
